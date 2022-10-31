@@ -227,6 +227,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 764px;
+    margin-bottom: 60px;
 }
 
 .sequence-card {
@@ -250,4 +251,14 @@ nav {
     width: 69px;
     height: 35px;
     margin-top: 40px;
+}
+
+.testimonials-panel{
+    width: 100%;
+    height: 920px;
+}
+
+footer {
+    height: 443px;
+    background-color: black;
 }
