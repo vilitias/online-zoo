@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 body {
     width: 1600px;
     font-family: Roboto;
+}
+
+
+h1,h2,h3,h4,p {
+    margin: 0;
 }
 
 ul {
@@ -15,11 +20,13 @@ ul {
     padding-inline-start: 0;
 }
 
+
 header {
     background-color: black;
     padding: 0 220px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
     height: 80px;
 
@@ -43,4 +50,122 @@ nav {
 
 .copyright {
     margin-left: 438px;
+}
+
+.panda-panel {
+    height: 700px;
+    background-image: url(../../assets/images/giant-panda.jpg);
+    padding-right: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.orange-circle-image {
+    width: 574px;
+    height: 474px;
+    margin-bottom: 60px;
+}
+
+.standard-button {
+    cursor: pointer;
+    background-color: #F9804B;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 298px;
+    height: 54px;
+}
+
+.standard-button:hover {
+    background-color: #E47209;
+}
+
+.standard-button:active {
+    background-color: #4B9200;
+}
+
+
+.watch-online-button {
+    margin-right: 100px;
+}
+
+
+/* second block */
+
+
+
+.choose-your-favorite-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url(../../assets/images/flowers-background.jpg);
+    padding: 140px 220px 100px 220px;
+    /* height: 1817px; */
+}
+
+.picture-and-text {
+    width: 100%;
+    display: flex;
+    margin-bottom: 180px;
+    justify-content: space-between;
+}
+
+.text-aside-bamboo-cap-man {
+    display: flex;
+    flex-direction: column;
+    width: 465px;
+}
+
+.animal-cards {
+    position: relative;
+    width: 1160px;
+    height: 872px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.animal-card {
+    width: 366px;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FA6F32;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.under-the-image {
+    padding: 8px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.round-button {
+    border-radius: 50%;
+    border: none;
+    width: 62px;
+    height: 62px;
+    background-color: #F9804B;
+    position: absolute;
+    cursor: pointer;
+}
+
+.round-button:active {
+    background-color: #4B9200;
+}
+
+.arrow-left {
+    top: 400px;
+    left: -75px;
+}
+
+.arrow-right {
+    top: 400px;
+    right: -75px;
 }
