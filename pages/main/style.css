@@ -93,7 +93,7 @@ nav {
 }
 
 
-/* second block */
+/* second block - choose your favorite*/
 
 
 
@@ -168,4 +168,86 @@ nav {
 .arrow-right {
     top: 400px;
     right: -75px;
+}
+
+
+/* third block - pick-and-feed-panel */
+
+
+.pick-and-feed-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1004px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%);
+}
+
+.pick-and-feed-central-container {
+    width: 1160px;
+    height: 835px;
+    background: rgba(253, 253, 255, 0.52);
+    border-radius: 20px;
+    padding: 40px 60px 60px 90px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-3-title {
+    font-size: 48px;
+    color: #FE9013;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.block-3-subtitle{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.small-text-bold {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 16px;
+}
+
+.block-3-how-it-works-title {
+    font-size: 36px;
+    width: fit-content;
+    margin: 60px auto 40px auto;
+}
+
+.how-it-works-sequence {
+    display: flex;
+    justify-content: space-between;
+    width: 764px;
+}
+
+.sequence-card {
+    width: 168px;
+    height: 244px;
+}
+
+.sequence-card-image {
+    background-color: white;
+    width: 168px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid #F9804B;
+    border-radius: 5px;
+}
+
+.sequence-arrow {
+    width: 69px;
+    height: 35px;
+    margin-top: 40px;
 }
