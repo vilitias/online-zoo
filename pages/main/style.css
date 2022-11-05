@@ -37,7 +37,7 @@ header {
     height: 52px;
 }
 
-nav {
+.nav-header {
     margin-left: 63px;
     color: white;
     width: 100%;
@@ -258,7 +258,109 @@ nav {
     height: 920px;
 }
 
+.rectangular-button {
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F9804B;
+    color: white;
+    font-size: 16px;
+}
+.rectangular-button:hover {
+    background-color: #E47209;
+}
+.rectangular-button:active {
+    background-color: #4B9200;
+}
+
+
+
 footer {
     height: 443px;
+    padding: 40px 220px 50px 220px;
     background-color: black;
+}
+
+.footer-upper-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.logo-and-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-subtitle {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.subscribe-input {
+    width: 228px;
+    height: 42px;
+    background-color: black;
+    border: 2px solid #F9804B;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.subscribe-button {
+    width: 129px;
+    height: 42px;
+    color: #4B9200;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #4B9200;
+    background-color: #F1F3F2;
+}
+
+.footer-lower-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+.social-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.socials-icon-name-container {
+    display: flex;
+    width: 111px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.social-icon {
+    margin-right: 12px;
+}
+
+.nav-footer {
+    width: 362px;
+    color:white;
+}
+
+.designed-by {
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.logo-footer {
+    width: 82px;
+    height: 52px;
+    margin-bottom: 68px;
 }
