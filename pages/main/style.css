@@ -10,6 +10,21 @@ h1,h2,h3,h4,p {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:active {
+    text-decoration: none;
+    color:#F9804B;
+}
+
 ul {
     display: block;
     list-style-type: none;
@@ -47,9 +62,19 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.footer-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlighted > a{
+    color: #F9804B;
+}
 
 .copyright {
     margin-left: 438px;
+    width: 105px;
+    height: 22px;
 }
 
 .panda-panel {
