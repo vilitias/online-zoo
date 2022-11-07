@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    width: 1600px;
+    font-family: Roboto;
+}
+h1,h2,h3,h4,p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:active {
+    text-decoration: none;
+    color:#F9804B;
+}
+
+
+.highlighted > a{
+    color: #F9804B;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+
+header {
+    background-color: black;
+    padding: 0 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 80px;
+
+}
+
+.logo {
+    width: 82px;
+    height: 52px;
+}
+
+.nav-header {
+    margin-left: 63px;
+    color: white;
+    width: 100%;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-left: 438px;
+    width: 105px;
+    height: 22px;
+}
+
+
+main {
+    height: 1482px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);;
+}
+
+
+
+
+.footer-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    height: 443px;
+    padding: 40px 220px 50px 220px;
+    background-color: black;
+}
+
+.footer-upper-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.logo-and-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-subtitle {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.subscribe-input {
+    width: 228px;
+    height: 42px;
+    background-color: black;
+    border: 2px solid #F9804B;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.subscribe-button {
+    width: 129px;
+    height: 42px;
+    color: #4B9200;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #4B9200;
+    background-color: #F1F3F2;
+}
+
+.footer-lower-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+.social-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.socials-icon-name-container {
+    display: flex;
+    width: 111px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.social-icon {
+    margin-right: 12px;
+}
+
+.nav-footer {
+    width: 362px;
+    color:white;
+}
+
+.designed-by {
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.logo-footer {
+    width: 82px;
+    height: 52px;
+    margin-bottom: 68px;
+}
