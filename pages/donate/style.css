@@ -8,6 +8,10 @@ h1,h2,h3,h4,p {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -16,7 +20,7 @@ a:hover {
 }
 a:visited {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 a:active {
     text-decoration: none;
@@ -53,6 +57,23 @@ header {
 .logo {
     width: 82px;
     height: 52px;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.logo > h1 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.bamboo-icon {
+    position: absolute;
+    left: 11px;
+    top: 22px;
 }
 
 .nav-header {
@@ -72,13 +93,93 @@ header {
     height: 22px;
 }
 
+.panda-panel {
+    height: 390px;
+    width: 1600px;
+}
 
 main {
     height: 1482px;
     background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);;
+    padding: 40px 220px 180px 220px;
+    box-sizing: border-box;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.description-small {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.title-donation {
+    color: #FE9013;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 60px;
 }
 
 
+.central-container {
+    width: 1160px;
+    height: 964px;
+    padding: 40px 92px 62px;
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.pick-and-feed-title {
+    font-size: 48px;
+    color: #FE9013;
+    font-weight: 400;
+    width: fit-content;
+    margin: 0 auto 20px;
+}
+
+.pick-and-feed-subtitle {
+    color: #333B41;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.number-and-animal {
+    width: 532px;
+    height: 246px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.number-of-food-days {
+    font-size: 72px;
+    font-weight: 500;
+}
+
+
+.rectangular-button {
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F9804B;
+    color: white;
+    font-size: 16px;
+}
+.rectangular-button:hover {
+    background-color: #E47209;
+}
+.rectangular-button:active {
+    background-color: #4B9200;
+}
 
 
 .footer-nav-list {
@@ -144,6 +245,7 @@ footer {
 .social-icon {
     width: 26px;
     height: 26px;
+    display: inline;
 }
 
 .socials-icon-name-container {
@@ -154,9 +256,18 @@ footer {
     margin-top: 10px;
     align-items: center;
 }
+.socials-link-container {
+    display: flex;
+    align-items: center;
+}
 
 .social-icon {
-    margin-right: 12px;
+    display: inline;
+}
+
+.social-name {
+    display: inline;
+    margin-left: 8px;
 }
 
 .nav-footer {
