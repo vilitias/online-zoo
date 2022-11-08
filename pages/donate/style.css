@@ -345,7 +345,7 @@ footer {
     margin-bottom: 14px;
 }
 
-.subscribe-input {
+.subscribe-input:valid {
     width: 228px;
     height: 42px;
     background-color: black;
@@ -354,17 +354,36 @@ footer {
     font-size: 16px;
     padding: 10px;
     box-sizing: border-box;
+    color: white;
+}
+.subscribe-input:invalid {
+    width: 228px;
+    height: 42px;
+    background-color: black;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #D31414;  
+    color: white;
+}
+
+.subscribe-input:invalid + .subscribe-button {
+    color: #D31414;
+    border: 1px solid #D31414;
 }
 
 .subscribe-button {
     width: 129px;
     height: 42px;
-    color: #4B9200;
+    color: #333B41;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #4B9200;
+    border: 1px solid #333B41;
     background-color: #F1F3F2;
+    cursor: pointer;
 }
+
 
 .footer-lower-part {
     display: flex;
@@ -419,4 +438,9 @@ footer {
     width: 82px;
     height: 52px;
     margin-bottom: 68px;
+}
+
+.logo-footer img {
+    width: 82px;
+    height: 52px;
 }
