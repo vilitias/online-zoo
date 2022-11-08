@@ -413,6 +413,9 @@ footer {
     display: flex;
     align-items: center;
 }
+.socials-link-container, a:active {
+    color: #4B9200;
+}
 
 .social-icon {
     display: inline;
