@@ -27,6 +27,25 @@ a:active {
     color:#F9804B;
 }
 
+.standard-button {
+    cursor: pointer;
+    background-color: #F9804B;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 298px;
+    height: 54px;
+}
+
+.standard-button:hover {
+    background-color: #E47209;
+}
+
+.standard-button:active {
+    background-color: #4B9200;
+}
 
 .highlighted > a{
     color: #F9804B;
@@ -133,6 +152,9 @@ main {
     background: rgba(255, 255, 255, 0.52);
     border-radius: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pick-and-feed-title {
@@ -164,6 +186,9 @@ main {
     font-weight: 500;
 }
 
+.amount-title {
+    width: 100%;
+}
 .amount-bar {
     width: 976px;
     height: 27px;
@@ -185,14 +210,94 @@ main {
 
 }
 
+
+.yellow-dot-container {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .yellow-dot {
     background-color: #FFEE2E;
     border-radius: 50%;
     width: 10px;
     height: 10px;
 }
+.money-values {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.money-value {
+    color: #333B41;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.money-input {
+    width: 268px;
+    height: 54px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 50px auto 25px;
+    position: relative;
+
+}
+
+.money-input > input {
+    padding: 16px 9px;
+    margin: 0;
+    border: 1px solid #929699;
+}
+.dollar-icon {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    right: 10px;
+    top: 18px;
+}
 
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.payment-type {
+    width: 197px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+input {
+    appearance: none;
+}
+
+.radio-input {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #FE9013;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.radio-input:checked {
+    background-color: #4B9200;
+    border: none;
+}
+
+.share-on-socials {
+    font-size: 16px;
+    color: #333B41;
+    margin-top: 30px;
+}
 
 .rectangular-button {
     width: 298px;
