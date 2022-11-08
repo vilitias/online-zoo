@@ -156,13 +156,42 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 48px;
 }
 
 .number-of-food-days {
     font-size: 72px;
     font-weight: 500;
 }
+
+.amount-bar {
+    width: 976px;
+    height: 27px;
+    background-color: #404950;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-bar-inner {
+    width: 915px;
+    height: 2px;
+    background-color: #72828E;
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.yellow-dot {
+    background-color: #FFEE2E;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
 
 
 .rectangular-button {
