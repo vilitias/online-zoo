@@ -15,12 +15,13 @@ img {
 a {
     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;
-}
 a:visited {
     text-decoration: none;
     color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: #F9804B;
 }
 a:active {
     text-decoration: none;
@@ -225,7 +226,17 @@ main {
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    position: relative;
 }
+
+.yellow-dot-container:hover > .yellow-dot{
+    background-color: #FE9013;
+}
+
+.yellow-dot-container:hover > .yellow-dot > .money-value {
+    color: #FE9013;
+}
+
 .money-values {
     width: 100%;
     display: flex;
@@ -236,6 +247,9 @@ main {
     color: #333B41;
     font-size: 26px;
     font-weight: 500;
+    position: absolute;
+    top: 22px;
+    left: -22px;
 }
 
 .money-input {
@@ -399,6 +413,10 @@ footer {
     width: 26px;
     height: 26px;
     display: inline;
+    border-radius: 50%;
+}
+.social-icon:hover {
+    background-color: #4B9200;
 }
 
 .socials-icon-name-container {
@@ -413,12 +431,8 @@ footer {
     display: flex;
     align-items: center;
 }
-.socials-link-container, a:active {
+.socials-link-container:hover {
     color: #4B9200;
-}
-
-.social-icon {
-    display: inline;
 }
 
 .social-name {

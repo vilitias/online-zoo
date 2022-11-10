@@ -13,12 +13,13 @@ h1,h2,h3,h4,p {
 a {
     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;
-}
 a:visited {
     text-decoration: none;
     color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: #F9804B;
 }
 a:active {
     text-decoration: none;
