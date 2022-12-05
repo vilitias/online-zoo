@@ -182,9 +182,14 @@ main {
     margin: 0 auto 48px;
 }
 
+.number-description {
+    font-size: 16px;
+}
+
 .number-of-food-days {
     font-size: 72px;
     font-weight: 500;
+    text-align: center;
 }
 
 .amount-title {
@@ -219,6 +224,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .yellow-dot {
@@ -226,7 +232,14 @@ main {
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    position: relative;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+input[type="radio"]:checked.yellow-dot{
+    background-color: #E47209;
 }
 
 .yellow-dot-container:hover > .yellow-dot{
@@ -248,8 +261,8 @@ main {
     font-size: 26px;
     font-weight: 500;
     position: absolute;
-    top: 22px;
-    left: -22px;
+    top: 30px;
+    left: -14px;
 }
 
 .money-input {
@@ -305,6 +318,10 @@ input {
 .radio-input:checked {
     background-color: #4B9200;
     border: none;
+}
+
+label[for="monthly"], label[for="once"] {
+    cursor: pointer;
 }
 
 .share-on-socials {

@@ -41,7 +41,10 @@
             <p class="pick-and-feed-subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
 
             <div class="number-and-animal">
-                <div class="number-of-food-days">4</div>
+                <div>
+                    <div class="number-of-food-days">4</div>
+                    <div class="number-description">Panda diet for the day.</div>
+                </div>
                 <div><img src="../../assets/icons/x_icon.svg" alt="X icon"></div>
                 <div><img src="../../assets/icons/donation-panda-icon.svg" alt="panda-icon"></div>
             </div>
@@ -49,28 +52,27 @@
             <div class="amount-title">Amount</div>
             <div class="amount-bar">
                 <div class="amount-bar-inner">
-                   <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">2000$</div></div></div>
-                   <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">1000$</div></div></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="2000"><div class="money-value">2000$</div></input></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="1000"><div class="money-value">1000$</div></input></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="500"><div class="money-value">500$</div></input></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="250"><div class="money-value">250$</div></input></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="100"><div class="money-value">100$</div></input></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="50"><div class="money-value">50$</div></input></div>
+                   <div  class="yellow-dot-container"> <input type="radio" name="payment" class="yellow-dot" value="25"><div class="money-value">25$</div></input></div>
+                   <!-- <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">1000$</div></div></div>
                    <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">500$</div></div></div>
                    <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">250$</div></div></div>
                    <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">100$</div></div></div>
                    <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">50$</div></div></div>
-                   <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">25$</div></div></div>
+                   <div class="yellow-dot-container"> <div class="yellow-dot"><div class="money-value">25$</div></div></div> -->
                 </div>
             </div>
             <div class="money-values">
-                <!-- <div class="money-value">2000$</div> -->
-                
-                <!-- <div class="money-value">500$</div>
-                <div class="money-value">250$</div>
-                <div class="money-value">100$</div>
-                <div class="money-value">50$</div>
-                <div class="money-value">25$</div> -->
             </div>
             <div class="money-input"><input type="number" class="money-input" placeholder="Another amount" max="9999"><div class="dollar-icon"><img src="../../assets/icons/dollar-sign.svg"></div></div>
             <div class="payment-type">
-                <div><input type="radio" value="monthly" name="payment-type" class="radio-input"> <label for="monthly">Monthly</label></div>
-                <div><input type="radio" value="once" name="payment-type" checked class="radio-input"> <label for="once">Once</label></div>
+                <div><input type="radio" value="monthly" id="monthly" name="payment-type" class="radio-input"> <label for="monthly">Monthly</label></div>
+                <div><input type="radio" value="once" id="once" name="payment-type" checked class="radio-input"> <label for="once">Once</label></div>
             </div>
             <button class="standard-button">FEED A FRIEND NOW</button>
             <p class="share-on-socials">Share with your friends on social networks </p>
