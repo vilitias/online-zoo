@@ -41,16 +41,33 @@ ul {
 
 .wrapper {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
+  width: 100%;
   background-color: black;
-  padding: 0 220px;
+  /* padding: 0 220px; */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-centered-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
-  height: 80px;
+  max-width: 1160px;
+  width: 100%;
+}
+
+.header-left-part {
+  display: flex;
+  align-items: center;
+  width: 55%;
 }
 
 .logo {
@@ -79,16 +96,17 @@ header {
 
 .copyright {
   /* margin-left: 438px; */
-  width: 105px;
-  height: 22px;
+  width: max-content;
 }
 
 .panda-panel {
   height: 700px;
+  width: 100%;
   background-image: url(../../assets/images/giant-panda.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-right: 220px;
+  background-position-y: center;
+  /* padding-right: 220px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -127,26 +145,43 @@ header {
 /* second block - choose your favorite*/
 
 .choose-your-favorite-panel {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  background-image: url(../../assets/images/flowers-background.jpg);
-  padding: 140px 220px 100px 220px;
+  /* background-image: url(../../assets/images/flowers-background.jpg); */
+  background-size: cover;
+  /* padding: 140px 220px 100px 220px; */
   /* height: 1817px; */
 }
 
 .picture-and-text {
+  padding-top: 140px;
   width: 100%;
+  max-width: 1160px;
   display: flex;
   margin-bottom: 180px;
   justify-content: space-between;
 }
 
+.bush-decoration {
+  position: absolute;
+  right: 0;
+}
+
+.bamboo-hat-picture {
+  width: 49%;
+}
+
+.bamboo-hat-picture > img {
+  width: 100%;
+}
+
 .text-aside-bamboo-cap-man {
   display: flex;
   flex-direction: column;
-  width: 465px;
+  width: 42%;
 }
 
 .animal-cards {
@@ -160,7 +195,7 @@ header {
 }
 
 .animal-card {
-  width: 366px;
+  /* width: 366px; */
   height: 426px;
   display: flex;
   flex-direction: column;
@@ -202,6 +237,7 @@ header {
 /* third block - pick-and-feed-panel */
 
 .pick-and-feed-panel {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,9 +345,17 @@ header {
 /* FOOTER */
 
 footer {
+  width: 100%;
   height: 443px;
-  padding: 40px 220px 50px 220px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-centered-container {
+  max-width: 1160px;
+  width: 100%;
 }
 
 .footer-upper-part {
@@ -398,4 +442,10 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  .header-centered-container {
+    max-width: 940px;
+  }
+  .footer-centered-container {
+    max-width: 940px;
+  }
 }
