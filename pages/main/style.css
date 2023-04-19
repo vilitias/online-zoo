@@ -106,7 +106,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
-  /* padding-right: 220px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -334,6 +333,10 @@ header {
   background-color: #f9804b;
   color: white;
   font-size: 16px;
+  cursor: pointer;
+}
+.margin-bottom {
+  margin-bottom: 30px;
 }
 .rectangular-button:hover {
   background-color: #e47209;
